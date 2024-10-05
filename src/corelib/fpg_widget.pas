@@ -1575,6 +1575,8 @@ begin
     end;
   end;
 
+  FInvalidated:=True;
+
   for i := 0 to ComponentCount-1 do
   begin
     w := TfpgWidget(Components[i]);
